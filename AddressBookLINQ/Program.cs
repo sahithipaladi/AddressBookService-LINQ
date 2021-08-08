@@ -19,7 +19,8 @@ namespace AddressBookLINQ
 
             Console.WriteLine("\n---------------DataTable After deleting---------");
             management.DeleteByName();
-            management.Display();
+            management.Display(); 
+             management.RetrieveByCityOrState();
 
         }
     }
