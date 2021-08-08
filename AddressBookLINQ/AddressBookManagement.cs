@@ -108,6 +108,31 @@ namespace AddressBookLINQ
                     }
                     break;
             }
+
+        }
+        //Count by city or state
+        public void CountByCityOrState()
+        {
+            Console.WriteLine("1.Count by city\n2.Count by State\nChoose an options");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
+            {
+                case 1:
+                    Console.WriteLine("Enter name of the City");
+                    string city = Console.ReadLine();
+                    var result = dataTable.AsEnumerable().Where(x => x.Field<string>("City").Contains(city));
+                    int cityCount = result.Count();
+                    Console.WriteLine("Count of contacts in {0} is {1}", city, cityCount);
+                    break;
+                case 2:
+                    Console.WriteLine("enter name of the State");
+                    string state = Console.ReadLine();
+                    var res = dataTable.AsEnumerable().Where(x => x.Field<string>("State").Contains(state));
+                    int stateCount = res.Count();
+                    Console.WriteLine("Count of contacts in {0} is {1}", state, stateCount);
+                    break;
+            }
+
         }
     }
 }
