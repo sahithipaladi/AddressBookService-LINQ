@@ -17,8 +17,8 @@ namespace AddressBookLINQ
             Console.WriteLine("\n--------------Display DataTable------------");
             management.Display();
 
-            Console.WriteLine("\n---------------DataTable After Editing---------");
-            management.EditByName();
+            Console.WriteLine("\n---------------DataTable After deleting---------");
+            management.DeleteByName();
             management.Display();
 
         }
