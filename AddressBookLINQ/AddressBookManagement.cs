@@ -7,9 +7,23 @@ using System.Threading.Tasks;
 
 namespace AddressBookLINQ
 {
-    class AddressBookManagement
+    public class AddressBookManagement
     {
-        //Create Data Table
+        //Creating Data Table
         public readonly DataTable dataTable = new DataTable();
+
+        public AddressBookManagement()
+        {
+            //Adding Columns to the Data Table
+            dataTable.Columns.Add("FirstName");
+            dataTable.Columns.Add("LastName");
+            dataTable.Columns.Add("Address");
+            dataTable.Columns.Add("City");
+            dataTable.Columns.Add("State");
+            dataTable.Columns.Add("Zip");
+            dataTable.Columns.Add("PhoneNumber");
+            dataTable.Columns.Add("Email");
+
+        }
     }
 }
