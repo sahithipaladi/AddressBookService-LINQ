@@ -31,11 +31,11 @@ namespace AddressBookLINQ
             dataTable.Rows.Add("Mithra", "S", "sk nagar Layout", "Nellore", "Andhra Pradesh", 524003, 9060804050, "mukesh@gmail.com");
             dataTable.Rows.Add("Likitha", "K", "nehrupark Road", "kadapa", "Andhra Praesh", 523108, 8498567909, "likitha@gmail.com");
             dataTable.Rows.Add("Ashwin", "S", "LR Nagar", "Chennai", "Tamil Nadu", 600102, 8367890967, "ashwin@gmail.com");
-            dataTable.Rows.Add("Parth", "S", "Kunna Road", "Tadipatri", "Andhra Pradesh", 523108, 6708956789, parth@gmail.com");
+            dataTable.Rows.Add("Parth", "S", "Kunna Road", "Tadipatri", "Andhra Pradesh", 523108, 6708956789, "parth@gmail.com");
             dataTable.Rows.Add("Pari", "M", "Courtroad", "anathapur", "Andhra Pradesh", 600107, 6754894309, "pari@gmail.com");
             dataTable.Rows.Add("Bhasakar", "T", "jublihills", "Hyderabad", "Telegana", 524003,6753428908, "bhasakara@gmail.com");
             dataTable.Rows.Add("Ashangi", "P", "Shanti Nagar", "Ongole", "Andhra Pradesh", 600020, 9484948494, "Ashangi@gmail.com");
-            dataTable.Rows.Add("Nithya", "T", "Jaya Nagar", "Kadapa", "Andhra Pradesh", 520010,81814840167,nithy@gmail.com");
+            dataTable.Rows.Add("Nithya", "T", "Jaya Nagar", "Kadapa", "Andhra Pradesh", 520010,81814840167,"nithya@gmail.com");
 
             dataTable.PrimaryKey = new DataColumn[] { dataTable.Columns["PhoneNumber"] };
 
