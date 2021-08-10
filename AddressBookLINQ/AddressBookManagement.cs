@@ -26,16 +26,16 @@ namespace AddressBookLINQ
 
 
             //Adding Rows to the Data Table
-            dataTable.Rows.Add("Koushik", "V", "TekkaMitta", "Nellore", "Andhra Pradesh", 524003, 9878686765, "koushik@gmail.com");
-            dataTable.Rows.Add("Nikitha", "S", "SriSainath Nagar", "Tirupathi", "Andhra Pradesh", 517102, 8939302849, "nikitha@gmail.com");
-            dataTable.Rows.Add("Mukesh", "S", "Magunta Layout", "Nellore", "Andhra Pradesh", 524003, 90504039690, "mukesh@gmail.com");
-            dataTable.Rows.Add("Sushmitha", "T", "Kanigiri Road", "Pamur", "Andhra Praesh", 523108, 8494839494, "sushmitha@gmail.com");
-            dataTable.Rows.Add("Akhilesh", "S", "Anna Nagar", "Chennai", "Tamil Nadu", 600102, 8393993894, "akhilesh@gmail.com");
-            dataTable.Rows.Add("Snehitha", "T", "Kanigiri Road", "Pamur", "Andhra Pradesh", 523108, 8949894859, "snehitha@gmail.com");
-            dataTable.Rows.Add("Shanthan", "V", "CMBT", "Chennai", "Tamil Nadu", 600107, 9409490394, "shanthan@gmail.com");
-            dataTable.Rows.Add("Bhuvana", "T", "TekkaMitta", "Nellore", "Andhra Pradesh", 524003, 8943949949, "bhuvana@gmail.com");
-            dataTable.Rows.Add("Satya", "T", "MG Road", "Chennai", "Tamil Nadu", 600020, 9484948494, "satya@gmail.com");
-            dataTable.Rows.Add("Ajith", "T", "Mogalrajapuram", "Vijaywada", "Andhra Pradesh", 520010, 9904949430, "ajith@gmail.com");
+              dataTable.Rows.Add("Sahithi", "V", "n.g.o colony", "kadapa", "Andhra Pradesh", 524003, 9999888867, "sahithi@gmail.com");
+            dataTable.Rows.Add("Sivaangi", "p", "Skd colony", "adoni", "Andhra Pradesh", 517102, 8976543210, "sivanngi@gmail.com");
+            dataTable.Rows.Add("Mithra", "S", "sk nagar Layout", "Nellore", "Andhra Pradesh", 524003, 9060804050, "mukesh@gmail.com");
+            dataTable.Rows.Add("Likitha", "K", "nehrupark Road", "kadapa", "Andhra Praesh", 523108, 8498567909, "likitha@gmail.com");
+            dataTable.Rows.Add("Ashwin", "S", "LR Nagar", "Chennai", "Tamil Nadu", 600102, 8367890967, "ashwin@gmail.com");
+            dataTable.Rows.Add("Parth", "S", "Kunna Road", "Tadipatri", "Andhra Pradesh", 523108, 6708956789, "parth@gmail.com");
+            dataTable.Rows.Add("Pari", "M", "Courtroad", "anathapur", "Andhra Pradesh", 600107, 6754894309, "pari@gmail.com");
+            dataTable.Rows.Add("Bhasakar", "T", "jublihills", "Hyderabad", "Telegana", 524003,6753428908, "bhasakara@gmail.com");
+            dataTable.Rows.Add("Ashangi", "P", "Shanti Nagar", "Ongole", "Andhra Pradesh", 600020, 9484948494, "Ashangi@gmail.com");
+            dataTable.Rows.Add("Nithya", "T", "Jaya Nagar", "Kadapa", "Andhra Pradesh", 520010,81814840167,"nithy@gmail.com");
 
             dataTable.PrimaryKey = new DataColumn[] { dataTable.Columns["PhoneNumber"] };
 
@@ -45,9 +45,9 @@ namespace AddressBookLINQ
         {
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
-                if (dataTable.Rows[i][0].ToString() == "Mukesh")
+                if (dataTable.Rows[i][0].ToString() == "Mithra")
                 {
-                    dataTable.Rows[i][0] = "Rajesh";
+                    dataTable.Rows[i][0] = "Parth";
                 }
             }
         }
@@ -68,7 +68,7 @@ namespace AddressBookLINQ
         {
             for (int i = 0; i < dataTable.Rows.Count; i++)
             {
-                if (dataTable.Rows[i][0].ToString() == "Mukesh")
+                if (dataTable.Rows[i][0].ToString() == "Mithra")
                 {
                     dataTable.Rows[i].Delete();
                 }
