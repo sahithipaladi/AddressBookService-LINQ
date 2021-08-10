@@ -35,7 +35,7 @@ namespace AddressBookLINQ
             dataTable.Rows.Add("Pari", "M", "Courtroad", "anathapur", "Andhra Pradesh", 600107, 6754894309, "pari@gmail.com");
             dataTable.Rows.Add("Bhasakar", "T", "jublihills", "Hyderabad", "Telegana", 524003,6753428908, "bhasakara@gmail.com");
             dataTable.Rows.Add("Ashangi", "P", "Shanti Nagar", "Ongole", "Andhra Pradesh", 600020, 9484948494, "Ashangi@gmail.com");
-            dataTable.Rows.Add("Nithya", "T", "Jaya Nagar", "Kadapa", "Andhra Pradesh", 520010,81814840167,nithy@gmail.com");
+            dataTable.Rows.Add("Nithya", "T", "Jaya Nagar", "Kadapa", "Andhra Pradesh", 520010,81814840167,nithya@gmail.com");
         }
     }
 }
